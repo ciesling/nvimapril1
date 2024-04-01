@@ -1,0 +1,14 @@
+vim.g.mapleader = ' '
+vim.opt.number = true
+vim.opt.relativenumber = true
+vim.opt.mouse = 'a'
+vim.opt.ignorecase = true
+vim.opt.smartcase = true
+vim.opt.hlsearch = false
+vim.opt.wrap = false
+vim.opt.breakindent = false
+vim.opt.tabstop = 2
+vim.opt.shiftwidth = 2
+vim.opt.expandtab = false
+
+vim.keymap.set('n', '<F1>', '<cmd>write<cr>')
